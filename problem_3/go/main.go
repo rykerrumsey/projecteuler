@@ -12,7 +12,6 @@ func main() {
   number := 600851475143
 
   for number%2 == 0 {
-    fmt.Print(2)
     number /= 2
   }
 
@@ -22,5 +21,5 @@ func main() {
     }
   }
 
-  fmt.Println(number)
+  fmt.Println("The largest multiple of 600851475143 that is also a prime number is:", number)
 }
